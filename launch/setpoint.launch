@@ -1,0 +1,9 @@
+<launch>
+    <arg name="ID" default="1"/>
+    <node name="sp$(arg ID)" pkg="setpoint_server" type="sp_node" output="screen" respawn="true">
+        <param name="name" value="camila$(arg ID)/mavros"/>
+        <param name="pid/kp" value="1.0"/>
+        <param name="use_vel" value="true"/>
+        <param name="ID" value="$(arg ID)"/>
+    </node>
+</launch>
