@@ -6,11 +6,10 @@
                 "limitSymbolsToIncludedHeaders": true
             },
             "includePath": [
-                "/home/heromin/catkin_ws/devel/include",
-                "/opt/ros/melodic/include",
-                "/home/heromin/catkin_ws/src/setpoint_server/include",
-                "/home/heromin/catkin_ws/src/swarm_ctrl_pkg/include",
-                "/home/heromin/catkin_ws/src/turtlebot3/turtlebot3_slam/include",
+                "/home/jaewon/catkin_ws/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/jaewon/catkin_ws/src/SPServer/include",
+                "/home/jaewon/catkin_ws/src/swarm_ctrl_pkg/include",
                 "/usr/include"
             ],
             "name": "Linux",
